@@ -40,6 +40,7 @@ python  predict.py
     </tr> 
 </table>
 
+
 ## 四、检测模型训练
 
 > 1.下载数据集，并解压后，将CCPD2019文件夹整个文件复制到本目录的CCPD2019中
@@ -59,6 +60,7 @@ python  predict.py
 ~~~
 python train.py
 ~~~
+
 
 ## 五、目录介绍
 
@@ -95,6 +97,7 @@ Project:
     │  utils.py         # 真个项目需要用到的函数脚本
     │  utils_bbox.py    # 模型预测的预测框解码以及nms函数脚本
     │  utils_fit.py     # 训练函数脚本
+
 
 # 六、待改进
 
