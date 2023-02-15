@@ -65,37 +65,69 @@ python train.py
 ## 五、目录介绍
 
 Project:
+
 │  predict.py   # 预测脚本
+
 │  README.md    
+
 │  requirements.txt # 本项目所需要的库
+
 │  train.py         # 训练脚本
+
 │  voc_annotation.py    # 对Voc数据集预测里脚本
+
 │
+
 ├─img
+
 │      test.jpg
+
 │
+
 ├─model_data
+
 │      ep010-loss1.900-val_loss1.586.pth    # yolo网络模型
+
 │      Final_LPRNet_model.pth  # LPRNet网络模型
+
 │      simhei.ttf       # 预测画框的字体文件
+
 │      my_classes.txt  # 数据集种类文本
+
 │      yolo_anchors.txt # anchor文件
+
 ├─CCPD2019
+
 │	  transformer.py  #CCPD2019生成标签的脚本
+
 │
+
 ├─nets
+
 │  │  darknet.py        # yolo骨干网络
+
 │  │  loss.py           # yolo的损失函数脚本
+
 │  │  yolonet.py        # yolo整体网络
+
 ├─LPRNet
+
 │  │  LPRNet.py        # 车牌识别骨干网络
+
 │
+
 └─utils
+
     │  dataloader.py    # 加载数据集以及预处理脚本
+    
     │  predict_yolo.py  # yolo模型预测函数脚本
+    
     │  predict_LPRNet.py# 车牌识别模型预测函数脚本
+    
     │  utils.py         # 真个项目需要用到的函数脚本
+    
     │  utils_bbox.py    # 模型预测的预测框解码以及nms函数脚本
+    
     │  utils_fit.py     # 训练函数脚本
 
 
