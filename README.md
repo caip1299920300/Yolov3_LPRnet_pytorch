@@ -27,14 +27,14 @@ python  predict.py
     <tr> 		
         <td> 			
             <center> 				
-                <img src=".\img\test.jpg" width="100%" /> 				
+                <img src="./img/test.jpg" width="100%" /> 				
                 <br/> 				
                 <font color="AAAAAA">原始图片</font> 			
             </center> 		
         </td> 		
         <td> 			
             <center> 				
-                <img src=".\img\test_predict1.jpg" width="100%" /> 				
+                <img src="./img/test_predict1.jpg" width="100%" /> 				
                 <br/> 				
                 <font color="AAAAAA">识别后的图片</font> 			
             </center> 		
