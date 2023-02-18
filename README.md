@@ -1,6 +1,8 @@
 # Yolov3_LPRnet_pytorch
 **(如果你使用git下载总是报红，你可以选择下载dev-sidecar编程软件加速下载--https://gitee.com/interesting-goods/dev-sidecar?_from=gitee_search)**
 
+**国内gitee仓库地址：**https://gitee.com/wucaip/Yolov3_LPRnet_pytorch
+
 ## 一、基于yolov3的LPRnet车牌识别
 
 以yolov3作文检测器、LPRnet作为识别模型，实现了实时车牌车牌识别模型。本项目直接使用LPRnet原始的网络作为车牌识别模型。
